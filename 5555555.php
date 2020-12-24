@@ -5,7 +5,7 @@ if($t1){
 	$que = mysql_query("SELECT * FROM $LMS[company_table] WHERE del_yn_co = 'N' 
 	AND co_name LIKE '%$t1%'") or die(sql_error());
 	$cnt = mysql_num_rows($que);1111111111111111111111111111111111111111111
-}
+}3333333333333333333333333333
 
 if($t1 && $cnt < 1) $msg = "등록된 소속 정보가 없습니다.";
 else $msg = "소속을 선택하세요.";
